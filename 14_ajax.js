@@ -1,7 +1,7 @@
 var express = require("express");
 var app = new express();
 
-app.get("/",function(req,res){
+app.get("/news",function(req,res){
     console.log(req,query);
     res.render("form");
     // res.send("aaaaaa");
